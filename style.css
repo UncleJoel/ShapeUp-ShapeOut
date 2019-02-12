@@ -1,0 +1,119 @@
+#canvas {
+    height: 600px;
+    width: 600px;
+    background-image: url(https://media.gadventures.com/media-server/cache/ed/50/ed50b3b6b47c580c8cc316570761d21f.jpg)
+
+}
+
+.input-container {
+    background-image: url(https://www.woodworkerssource.com/mm5/graphics/backgrounds/news-panel-2.jpg)
+}
+
+#infobar {
+    background-image: url(https://static1.squarespace.com/static/541c985ae4b050462246e23e/541f47f0e4b0be37af65b8bb/54222054e4b0cd164359db8a/1412825644149/NaluLuaSurfboard.jpg);
+}
+#shapeNameOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#widthOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#heightOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#radiusOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#areaOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#perimeterOP {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 200px
+}
+
+#infoLabel {
+text-align: center;
+}
+
+#CircleShape {
+    border-radius: 500px;
+}
+
+#TriangleShape {
+    height: 0;
+    width: 0;
+    border-bottom: solid yellow;
+    border-right: solid transparent;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    
+    color: white;
+}
+
+#shapeNameInfo {
+    color: white;
+}
+
+#infoLabel {
+    color: white;
+}
+
+#widthInfo {
+    color: white;
+}
+
+#heightInfo {
+    color: white;
+}
+
+#radiusInfo {
+    color: white;
+}
+
+#areaInfo {
+    color: white;
+    
+}
+
+#perimeterInfo {
+    color: white;
+}
+ label {
+     color: white;
+     text-shadow: 2px 2px black;
+ }
+
+ #header {
+    background-image: url(http://www.thepointaftershow.com/wp-content/uploads/2017/06/1437396608971-715x400.jpeg);
+
+ }
+
+ body {
+     background-color: black
+ }

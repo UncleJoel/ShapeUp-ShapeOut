@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Shape Up or Shape Out</title>
+</head>
+
+<body>
+        <div id="header" class="">
+            <h1 class="">Shape Up / Shape Out </h1>
+    </div>
+    <div class="input-container">
+        <div class="row container-fluid">
+            <form id="square-form" class=" col-3">
+                <div class="col-9">
+                    <label class="m-1">Square:</label><br>
+                    <input id="square-input1" class="m-2" type="value" placeholder="Height"><br>
+                    <input id="square-input2" type="value" class="m-2" placeholder="Width">
+                    <button id="square-btn" class="btn btn-warning m-2">Draw!</button>
+                </div>
+            </form>
+            <form id="circle-form" class="col-3">
+                <div class="col-9">
+                    <label class="m-1">Circle:</label><br>
+                    <input id = 'circle-input1' type="value" class="m-1" placeholder="Input Radius."><br>
+                    <button id="circle-btn" class="btn btn-warning m-2">Draw!</button>
+                </div>
+            </form>
+            <form id="triangle-form" class="col-3">
+                <div class="col-9">
+                    <label class="m-1">Triangle:</label><br>
+                    <input id="triangle-input1" type="value" class="m-2" placeholder="Input Height."><br>
+                    <button id="triangle-btn" class="btn btn-warning m-2">Draw!</button>
+                </div>
+            </form>
+            <form id="rectangle-form" class="col-3">
+                <div class="col-9">
+                    <label class="m-1">Rectangle:</label><br>
+                    <input id='rec-input1' type="value" class='m-1' placeholder="Input Height."><br>
+                    <input id='rec-input2' type="value" class="m-1" placeholder="Input Width."><br>
+                    <button id="rectangle-btn" class="btn btn-warning m-1">Draw!</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="canvas" class="border border-dark col-9">
+
+            </div>
+            <div id="infobar" class="border border-dark col-3">
+                <h3 id="infoLabel">INFO!</h3>
+                <div class="mt-2 " id="shapeNameInfo">
+                    Shape:
+                    <div class="mt-1" id="shapeNameOP">
+
+                    </div>
+                </div>
+                <div class="mt-2" id="widthInfo">
+                    Width:
+                    <div class="mt-2" id="widthOP">
+
+                    </div>
+                </div>
+                <div class="mt-2" id="heightInfo">
+                    Height:
+                    <div class="mt-2" id="heightOP">
+
+                    </div>
+                </div>
+                <div class="mt-2" id="radiusInfo">
+                    Radius:
+                    <div class="mt-2" id=radiusOP>
+
+                    </div>
+                </div>
+                <div class="mt-2" id="areaInfo">
+                    Area:
+                    <div class="mt-2" id="areaOP">
+
+                    </div>
+                </div>
+                <div class="mt-2" id="perimeterInfo">
+                    Perimeter:
+                    <div class="mt-2" id="perimeterOP">
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+   
+    <script src="app.js"></script>
+</body>
+
+</html>
